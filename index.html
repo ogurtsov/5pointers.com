@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>5Pointers | Web Application Development</title>
+	<meta name="description" content="Our prices are medium. Out quality is high.">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<link href="//fonts.googleapis.com/css?family=Pathway+Gothic+One" rel='stylesheet' type='text/css'>
+	<style type="text/css">
+		html{
+			height: 100%;
+		}
+		body {
+			padding: 0;
+			margin: 0;
+			*font-size: small;
+			*font: x-small;
+			margin: 0;
+			padding: 0;
+			background-color: whitesmoke;
+			font-family: 'Pathway Gothic One', sans-serif;
+			color: #333;
+			min-height: 100%;
+			position: relative;
+		}
+		ul, li, em, strong, pre, code {
+			padding: 0;
+			margin: 0;
+			line-height: 1em;
+			font-size: 100%;
+			font-weight: normal;
+			font-style: normal;
+		}
+		table {
+			font-size: inherit;
+			font: 100%;
+		}
+		ul {
+			list-style: none;
+		}
+		img {
+			border: 0;
+		}
+		p {
+			margin: 1em 0;
+		}
+
+		header {
+			background-color: #333;
+			height: 80px;
+			color: whitesmoke;
+			position: relative;
+		}
+		section {
+			padding: 10px 80px;
+		}
+		section > p {
+			max-width: 600px;
+		}
+		footer {
+			background-color: #333;
+			height: 40px;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			color: whitesmoke;
+		}
+		.container {
+			padding-bottom: 40px;
+		}
+		.content-box {
+			float:left;
+			font-weight: normal;
+			margin: 0 50px 50px 0;
+			text-decoration: none;
+		}
+		.content-box img {
+			width: 120px;
+		}
+		.content-box:hover .invisible {
+			visibility: visible;
+			text-align: center;
+			color: #333;
+			text-decoration: none;
+		}
+		.content-box-header {
+            font-size: 16pt;
+            margin: 6px 0;
+		}
+		.invisible {
+			visibility: hidden;
+		}
+		.header-content-left {
+			position: absolute;
+			bottom: 0;
+			left: 80px;
+			font-size: 48pt;
+			line-height: 35pt;
+			float: left;
+		}
+		.header-content-right {
+			position: absolute;
+			bottom: 0;
+			left: 280px;
+			float: left;
+			font-size: 16pt;
+			line-height: 18pt;
+		}
+		.footer-content-left {
+			margin-left: 80px;
+			line-height: 40px;
+		}
+		.clearfix {
+			clear: both;
+		}
+		@media screen and (max-width: 650px) {
+			header {
+				height: 40px;
+			}
+			section {
+				padding: 5px 40px;
+			}
+			.header-content-left {
+				left: 40px;
+				font-size: 24pt;
+				line-height: 17pt;
+			}
+			.header-content-right {
+				display: none;
+			}
+			footer {
+				height: 30px;
+			}
+			.footer-content-left {
+				margin-left: 40px;
+				line-height: 30px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="header-content-left">5Pointers</div>
+			<div class="header-content-right">Web Application Development</div>
+			<div class="clearfix"></div>
+		</header>
+		<section>
+			<h1>Who we are?</h1>
+			<p>
+				We are a small software development team spread across US and Europe. Our main specialization is web application development.
+				We don't have account managers and other technically useless staff so we only charge for actual work.
+			</p>
+
+
+			<h1>Our Skills and Expertise</h1>
+			<div>
+				<div class="content-box">
+					<div class="content-box-header">Backend</div>
+					<ul>
+						<li>Django</li>
+						<li>Flask</li>
+						<li>Tornado</li>
+					</ul>
+				</div>
+				<div class="content-box">
+					<div class="content-box-header">Frontend</div>
+					<ul>
+						<li>Foundation</li>
+						<li>Bootstrap</li>
+						<li>Materialize</li>
+						<li>Angular</li>
+						<li>Backbone</li>
+					</ul>
+				</div>
+				<div class="content-box">
+					<div class="content-box-header">Databases</div>
+					<ul>
+						<li>MySQL</li>
+						<li>PostgreSQL</li>
+						<li>MongoDB</li>
+						<li>Redis</li>
+						<li>Firebase</li>
+					</ul>
+				</div>
+				<div class="content-box">
+					<div class="content-box-header">More!</div>
+					<ul>
+                                                <li>DevOps</li>
+						<li>AWS</li>
+						<li>Computer Vision</li>
+						<li>Machine Learning</li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+<!--
+			<h1>Recent Clients</h1>
+			<div>
+				<a class="content-box" href="http://ranks.live/">
+					<img src="/images/ranks.png" alt="Ranks.live logo" />
+					<div class="content-box-header invisible">
+						Ranks
+					</div>
+				</a>
+				<a class="content-box" href="http://www.teamedup.com.au/">
+					<img src="/images/teamedup.png" alt="TeamedUp logo" />
+					<div class="content-box-header invisible">
+						TeamedUp
+					</div>
+				</a>
+				<a class="content-box" href="http://hojo.me/">
+					<img src="/images/hojo.png" alt="Hojo.me logo" />
+					<div class="content-box-header invisible">
+						Hojo
+					</div>
+					<div class="invisible">
+						<small>[!adult content!]</small>
+					</div>
+				</a>
+				<a class="content-box" href="https://mokonut.com/">
+					<img src="/images/mokonut.png" alt="Mokonut logo" />
+					<div class="content-box-header invisible">
+						Mokonut
+					</div>
+				</a>
+				<div class="clearfix"></div>
+			</div>
+-->
+			<h1>Contact Us</h1>
+			<p>
+				<div>hello@5pointers.com</div>
+			</p>
+		</section>
+		<div class="clearfix"></div>
+	</div>
+	<footer>
+			<div class="footer-content-left">
+				We look forward to hearing from you!
+			</div>
+	</footer>
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+	(function (d, w, c) {
+	    (w[c] = w[c] || []).push(function() {
+	        try {
+	            w.yaCounter22502320 = new Ya.Metrika({id:22502320,
+	                    webvisor:true,
+	                    clickmap:true,
+	                    trackLinks:true,
+	                    accurateTrackBounce:true});
+	        } catch(e) { }
+	    });
+
+	    var n = d.getElementsByTagName("script")[0],
+	        s = d.createElement("script"),
+	        f = function () { n.parentNode.insertBefore(s, n); };
+	    s.type = "text/javascript";
+	    s.async = true;
+	    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+	    if (w.opera == "[object Opera]") {
+	        d.addEventListener("DOMContentLoaded", f, false);
+	    } else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="//mc.yandex.ru/watch/22502320" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+	<!-- /Yandex.Metrika counter -->
+</body>
+</html>
